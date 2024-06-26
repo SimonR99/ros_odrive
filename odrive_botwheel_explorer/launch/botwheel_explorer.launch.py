@@ -25,24 +25,6 @@ from launch_ros.substitutions import FindPackageShare
 def generate_launch_description():
     # Declare arguments
     declared_arguments = []
-#    declared_arguments.append(
-#        DeclareLaunchArgument(
-#            "gui",
-#            default_value="true",
-#            description="Start RViz2 automatically with this launch file.",
-#        )
-#    )
-#    declared_arguments.append(
-#        DeclareLaunchArgument(
-#            "use_mock_hardware",
-#            default_value="false",
-#            description="Start robot with mock hardware mirroring command to its states.",
-#        )
-#    )
-
-    # Initialize Arguments
-#    gui = LaunchConfiguration("gui")
-#    use_mock_hardware = LaunchConfiguration("use_mock_hardware")
 
     # Get URDF via xacro
     robot_description_content = Command(
@@ -106,7 +88,7 @@ def generate_launch_description():
     robot_controller_spawner = Node(
         package="controller_manager",
         executable="spawner",
-        arguments=["botwheel_explorer", "--controller-manager", "/controller_manager"],
+        arguments=["position_controller", "--controller-manager", "/controller_manager"],
     )
 
 #    # Delay rviz start after `joint_state_broadcaster`

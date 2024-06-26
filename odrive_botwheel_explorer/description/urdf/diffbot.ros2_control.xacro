@@ -20,7 +20,7 @@
         <param name="node_id">0</param>
       </joint>
       <joint name="${prefix}right_wheel_joint">
-        <param name="node_id">1</param>
+        <param name="node_id">0</param>
       </joint>
     </ros2_control>
 

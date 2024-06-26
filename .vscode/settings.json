@@ -1,3 +1,31 @@
 {
     "C_Cpp.autoAddFileAssociations": false,
+    "python.autoComplete.extraPaths": [
+        "/home/simon/Workspace/capra/rove/build/rove_template",
+        "/home/simon/Workspace/capra/rove/install/rove_template/lib/python3.10/site-packages",
+        "/home/simon/Workspace/capra/rove/build/rove_slam",
+        "/home/simon/Workspace/capra/rove/install/rove_slam/lib/python3.10/site-packages",
+        "/home/simon/Workspace/capra/rove/build/rove_navigation",
+        "/home/simon/Workspace/capra/rove/install/rove_navigation/lib/python3.10/site-packages",
+        "/home/simon/Workspace/capra/rove/build/rove_behavior",
+        "/home/simon/Workspace/capra/rove/install/rove_behavior/lib/python3.10/site-packages",
+        "/home/simon/Workspace/capra/rove/build/ovis_template",
+        "/home/simon/Workspace/capra/rove/install/ovis_template/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/simon/Workspace/capra/rove/build/rove_template",
+        "/home/simon/Workspace/capra/rove/install/rove_template/lib/python3.10/site-packages",
+        "/home/simon/Workspace/capra/rove/build/rove_slam",
+        "/home/simon/Workspace/capra/rove/install/rove_slam/lib/python3.10/site-packages",
+        "/home/simon/Workspace/capra/rove/build/rove_navigation",
+        "/home/simon/Workspace/capra/rove/install/rove_navigation/lib/python3.10/site-packages",
+        "/home/simon/Workspace/capra/rove/build/rove_behavior",
+        "/home/simon/Workspace/capra/rove/install/rove_behavior/lib/python3.10/site-packages",
+        "/home/simon/Workspace/capra/rove/build/ovis_template",
+        "/home/simon/Workspace/capra/rove/install/ovis_template/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
 }
